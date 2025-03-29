@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
-import ConfigPage from "./ConfigPage";
-import OutputPage from "./OutputPage";
 import './App.css'
+import ConfigPage from "./components/ConfigPage";
+import OutputPage from "./components/OutputPage";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Link to="/output">Go to Output Page</Link>
       </nav>
       <Routes>
-        <Route path="/config" element={<ConfigPage />} />
+        <Route path="/" element={<ConfigPage />} />
         <Route path="/output" element={<OutputPage />} />
       </Routes>
     </div>
