@@ -88,7 +88,7 @@ function OutputPage() {
       <h1>Output Page</h1>
       <button
         onClick={executeActions}
-        style={{ fontSize: `${buttonSize}px`, backgroundColor: buttonColor }}
+        style={{ fontSize: `${buttonSize}px`}}
         disabled={buttonDisabled}
       >
         {config?.label || "Click Me!"}
