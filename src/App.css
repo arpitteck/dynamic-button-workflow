@@ -28,7 +28,7 @@ button {
   font-size: 14px;
   transition: all 0.3s ease;
   background-color: white;  /* Button background color */
-  color: white;  /* Button text color changed to white */
+  color: rgb(0, 0, 0);  /* Button text color changed to white */
   border: 1px solid #ccc;  /* Added border for visibility */
 }
 
@@ -39,19 +39,19 @@ button:hover {
 /* Specific Button Styles */
 .primary-btn {
   background-color: white; /* Button background */
-  color: white; /* Button text color */
+  color: rgb(0, 0, 0); /* Button text color */
   border: 1px solid #007bff;
 }
 
 .danger-btn {
   background-color: white; /* Button background */
-  color: white; /* Button text color */
+  color: rgb(0, 0, 0); /* Button text color */
   border: 1px solid #dc3545;
 }
 
 .success-btn {
   background-color: white; /* Button background */
-  color: white; /* Button text color */
+  color: rgb(0, 0, 0); /* Button text color */
   border: 1px solid #28a745;
 }
 
